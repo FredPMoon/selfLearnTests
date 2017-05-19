@@ -61,6 +61,19 @@ public class Test
 {
 	 public static void main(String [] args)
 	 {
+		 /*
+		  * The "compile-time type" of a variable is the type it is declared as. 
+		 	The "runtime type" is the type of the actual object the variable points to.
+		 	
+		 	compile-time type is what type you are declaring/definning the object;
+		 	run-time type is when program is running, it would assign that variable a new instance of type X (run-time type)
+				
+	 		Here, c's compile-time type is C1, c's run-time type is C0
+	 		We can only call methods based on its compile-time type.
+	 		So here we can't call any methonds that are not in C1.	 
+	 		But by saying C1 implements I3, which has meth3() in it, we garantee that C1 or its children (at least one
+	 		of them) would someday implement meth3(), so it's safe to call meth3() on c whose compile-time type	is C1.	
+		 */
 		 C1 c = new C0();
 		 c.meth(0);
 		 c.meth1();

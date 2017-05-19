@@ -1,3 +1,5 @@
+package basicTest;
+
 import java.util.Scanner;
 
 public class ifandswitch 
