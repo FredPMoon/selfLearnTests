@@ -1,0 +1,15 @@
+1 // omitted package and import statements for space
+2 @WebServlet("/FormServlet")
+3 public class FormServlet extends HttpServlet {
+4 private static final long serialVersionUID = 1L;
+5 protected void service(HttpServletRequest request, HttpServletResponse response)
+6 throws ServletException, IOException {
+7 String username = request.getParameter("username");
+8 String next = "/invalidUsername.jsp";
+9 if (username != null && username.equals("csci201")) {
+10 next = "/validUsername.jsp";
+11 }
+12 RequestDispatcher dispatch = getServletContext().getRequestDispatcher(next);
+13 dispatch.forward(request,response);
+14 }
+15 }

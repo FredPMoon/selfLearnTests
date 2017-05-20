@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>USC News</title>
+	<style>
+		#container
+		{
+			border-radius: 5px;
+			width: 700px;
+			margin: auto;
+			border: 5px solid black;
+		}
+		#header
+		{
+			text-align: center;
+			background-color: #990000;
+		}
+		#header_usc
+		{
+			color: yellow;
+			font-size: 30px;
+			width: 347px;
+			float: left;
+			text-align: right;
+			margin-right: 3px;
+		}
+		#header_news
+		{
+			color: white;
+			font-size: 30px;
+			width: 347px;
+			float: right;
+			text-align: left;
+			margin-left: 3px;
+		}
+		#article
+		{
+			float: left;
+			width: 500px;
+			padding: 8px;
+		}
+		#sidebar
+		{
+			background-color: gray;
+			width: 177px;
+			float: right;
+			border: 1px black solid;
+			margin-top: 140px;
+			margin-right: 3px;
+		}
+		#related_articles
+		{
+			margin-left: 3px;
+			font-weight: bold;
+			font-size: 17px;
+		}
+		#pics
+		{
+			background-color: white;
+			padding-top: 3px;
+			padding-left: 3px;
+			padding-right: 5px;
+		}
+		#copy_right
+		{
+			background-color: gray;
+			text-align: right;
+			color: white;
+			font-size: 12px;
+		}
+		.clear
+		{
+			clear: both;
+		}
+		.big_image
+		{
+			width: 100%;
+		}
+		h1
+		{
+			font-size: 28px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<div id="header_usc">USC</div> <div id="header_news">News</div>
+			<div class="clear"></div>
+		</div>
+
+		<div id="article">
+			<h1>USC name to rise over downtown Los Angeles</h1>
+			<p style="font-size: 17px; font-weight: bold">
+				University leases additional space at AT&T Center, which will get new signage later this year
+			</p>
+			<img class="big_image" src="usc1.jpg" alt="USC building" />
+			<p>
+				<span style="font-size: 30px; color: gray;">A</span>n expanded lease at the landmark AT&T Center means the USC name will soon rise over downtown.
+			</p>
+			<p>
+				USC has leased an additional 30,000 square feet at the three-building complex, where the university already occupies 215,000 square feet. As part of the lease arrangement, the USC name and shield will replace the AT&T sign atop the 32-story tower.
+			</p>
+			<p>
+				The additional space will be used by the USC Marshall School of Business and the USC School of Social Work, said Laurie Stone, USC associate senior vice president for real estate and asset management. The complex already houses KUSC-FM as well as some operations of the Marshall School, the School of Social Work, the USC Price School of Public Policy, the USC Stevens Center for Innovation and the USC Viterbi School of Engineering.
+			</p>
+			<p>
+				"The downtown location is strategically important for the university," Stone said Friday. "It allows us to preserve space on our University Park Campus for teaching and research, and allows the schools and departments in the AT&T building to easily connect and interact with businesses and communities in the heart of downtown."
+			</p>
+			<p>
+				The USC signage is expected to be installed during the third quarter of 2015.
+			</p>
+			<p>
+				The 32-story building, at 1150 S. Olive St., was designed by noted architect William Pereira and completed in 1965. Pereira - perhaps best known for designing the Transamerica Pyramid in San Francisco - taught at the USC School of Architecture and designed more than a dozen buildings on the University Park Campus including the Bing Theatre and Olin, Powell, Ramo and Vivian halls.
+			</p>
+		</div>
+
+		<div id="sidebar">
+			<div id="related_articles">
+				<p>Related Articles</p>
+			</div>
+			<div id="pics">
+				<img src="usc2.jpg" alt="tommy trojan" style="width: 100%;">
+				<a href="http://news.usc.edu" target="_blank">Campaign for USC crosses $4 billion milestone</a>
+				<img src="usc3.jpg" alt="annerberg" style="width: 100%;">
+				<a href="http://news.usc.edu" target="_blank">USC Anneberg unveils Wallis Annenberg Hall</a>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+
+		<div id="copy_right">
+			Copyright 2015.
+		</div>
+
+	</div>
+
+</body>
+</html>

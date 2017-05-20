@@ -1,0 +1,15 @@
+out.println("1 // omitted package and import statements for space");
+out.println("2 @WebServlet("/FormServlet")");
+out.println("3 public class FormServlet extends HttpServlet {");
+out.println("4 private static final long serialVersionUID = 1L;");
+out.println("5 protected void service(HttpServletRequest request, HttpServletResponse response)");
+out.println("6 throws ServletException, IOException {");
+out.println("7 String username = request.getParameter("username");");
+out.println("8 String next = "/invalidUsername.jsp";");
+out.println("9 if (username != null && username.equals("csci201")) {");
+out.println("10 next = "/validUsername.jsp";");
+out.println("11 }");
+out.println("12 RequestDispatcher dispatch = getServletContext().getRequestDispatcher(next);");
+out.println("13 dispatch.forward(request,response);");
+out.println("14 }");
+out.println("15 }");

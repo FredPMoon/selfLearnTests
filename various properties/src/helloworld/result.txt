@@ -1,0 +1,3 @@
+hello, this is a test for File I/O Java program.
+And this is a new line.
+hello, file i/o.

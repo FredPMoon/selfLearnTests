@@ -1,9 +1,14 @@
-package FileIO;
+package fileConverter;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Scanner;
 
-public class fileio 
+public class FileConverter 
 {
 	public static void main(String[] args) 
 	{
@@ -24,9 +29,9 @@ public class fileio
 		}
 		try
 		{
-			fr = new FileReader("src/FileIO/input.txt");
+			fr = new FileReader("src/fileConverter/input.txt");
 			br = new BufferedReader(fr);
-			fw = new FileWriter("src/FileIO/output.txt");
+			fw = new FileWriter("src/fileConverter/output.txt");
 			pw = new PrintWriter(fw);
 			String line = br.readLine();
 			//delete line numbers
